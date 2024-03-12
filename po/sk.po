@@ -7739,7 +7739,7 @@ msgstr "Ohlášky"
 
 #: ../gramps/gen/lib/eventtype.py:231
 msgid "Engagement"
-msgstr "Zapojenie"
+msgstr "Zasnúbenie"
 
 #: ../gramps/gen/lib/eventtype.py:232 ../gramps/gen/utils/symbols.py:98
 #: ../gramps/gui/configure.py:2779 ../gramps/plugins/webreport/family.py:318
