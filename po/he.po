@@ -4777,7 +4777,7 @@ msgstr "עצמי מדיה מתויגים בתג <תג>"
 
 #: ../gramps/gen/filters/rules/media/_hastag.py:53
 msgid "Matches media objects with the particular tag"
-msgstr "איתור עצמי מדיה שמתויגים בתג מסוים"
+msgstr "שליפת עצמי מדיה שמתויגים בתג מסוים"
 
 #: ../gramps/gen/filters/rules/media/_matchesfilter.py:46
 msgid "Media objects matching the <filter>"
