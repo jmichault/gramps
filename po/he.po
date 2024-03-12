@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-08 22:07+0000\n"
 "PO-Revision-Date: 2024-03-12 10:48+0000\n"
-"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/gramps-project/"
 "gramps/he/>\n"
 "Language: he\n"
@@ -37959,7 +37959,7 @@ msgstr "שירות מפות"
 #: ../gramps/plugins/webreport/narrativeweb.py:2607
 msgid "Choose your choice of map service for creating the Place Map Pages."
 msgstr ""
-"נא לבחור בשירות מפות על מנת ליצור עמודי מפה למקומות המופיעים באילן־היוחסין."
+"נא לבחור בשירות מפות כדי לייצר עמודי מפה למקומות המופיעים באילן־היוחסין."
 
 #: ../gramps/plugins/webreport/narrativeweb.py:2613
 msgid "Include Place map on Place Pages"
@@ -37969,7 +37969,7 @@ msgstr "לכלול מפת מקום בעמודי המקום"
 msgid ""
 "Whether to include a place map on the Place Pages, where Latitude/ Longitude "
 "are available."
-msgstr "האם לכלול מפת מקום בעמודי 'מקום', כאשר קו רוחב/אורך זמינים."
+msgstr "האם לכלול מפת מקום בעמודי 'מקום', כאשר קו רוחב/קו אורך זמינים."
 
 #: ../gramps/plugins/webreport/narrativeweb.py:2625
 msgid "Include Family Map Pages with all places shown on the map"
