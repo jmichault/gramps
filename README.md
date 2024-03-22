@@ -91,7 +91,7 @@ The following packages are optional:
  Multiple revisions of your family trees can be managed.
  Only rcs is needed, NO python bindings are required.
 
-* [**Pillow**](https://python-pillow.org)
+* **Pillow**
 
  The friendly Python Image Library fork is needed to crop
  images and also to convert non-JPG images to
@@ -128,10 +128,8 @@ Optional packages required by Third-party Addons
 
 Prerequistes required for the following Addons to work:
 
-* [**Family Sheet**]( https://gramps-project.org/wiki/index.php?title=Family_Sheet ) - Requires: Pillow
-* [**Graph View**]( https://gramps-project.org/wiki/index.php?title=Graph_View ) - Requires: PyGoocanvas and Goocanvas (python-pygoocanvas, gir1.2-goocanvas-2.0).
-* [**Network Chart**]( https://gramps-project.org/wiki/index.php?title=NetworkChart ) - Requires: networkx and pygraphviz
-* [**PedigreeChart**]( https://gramps-project.org/wiki/index.php?title=PedigreeChart ) - Can optionally use - numpy if installed
+* **Family Sheet** - Requires: Pillow
+( https://gramps-project.org/wiki/index.php?title=Family_Sheet )
 
 
 No longer needed:
