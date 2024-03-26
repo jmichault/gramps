@@ -174,7 +174,6 @@ MISSING_LIBS = [
 ]
 ADWAITA = [
     "16x16",
-    "32x32",
     "cursors",
     "scalable",
 ]
