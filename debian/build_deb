@@ -1,8 +1,12 @@
+#!/bin/bash
+
+cd $(dirname $(readlink -f $0))/..
+
 rm -rf dist
 python3 setup.py egg_info
 VERSION=$(grep "^Version:" gramps.egg-info/PKG-INFO|sed 's/Version: *//')
 if ! grep "^gramps ($VERSION" debian/changelog ; then
-  appbuild="r$(git log -1 --pretty=format:%h)
+  appbuild="r$(git log -1 --pretty=format:%h)"
   DEBFULLNAME="Ross Gammon" DEBEMAIL="rossgammon@debian.org" debchange -D UNRELEASED -v "$VERSION"-"$appbuild" "New release"
 fi
 python3 setup.py sdist
@@ -11,6 +15,7 @@ cd dist
 tar zxf gramps-"$VERSION".tar.gz
 mv gramps-"$VERSION".tar.gz gramps_"$VERSION".orig.tar.gz
 cd gramps-"$VERSION"
+mkdir -p build/.gramps
 export LANG=en_US.utf8
-debuild
+debuild --no-sign
 # result : dist/gramps_"$VERSION"-"$appbuild"_all.deb

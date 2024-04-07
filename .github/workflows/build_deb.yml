@@ -71,8 +71,9 @@ jobs:
         tar zxf gramps-"$VERSION".tar.gz
         mv gramps-"$VERSION".tar.gz gramps_"$VERSION".orig.tar.gz
         cd gramps-"$VERSION"
+        mkdir -p build/.gramps
         export LANG=en_US.utf8
-        debuild
+        debuild --no-sign
     - uses: actions/upload-artifact@v4
       with:
         name: Gramps_deb_${{ matrix.os }}
