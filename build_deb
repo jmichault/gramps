@@ -2,8 +2,8 @@ rm -rf dist
 python3 setup.py egg_info
 VERSION=$(grep "^Version:" gramps.egg-info/PKG-INFO|sed 's/Version: *//')
 if ! grep "^gramps ($VERSION" debian/changelog ; then
-  appbuild="r$(git rev-list --count HEAD)"
-  DEBFULLNAME="Ross Gammon" DEBEMAIL="rossgammon@debian.org" debchange -D unstable -v "$VERSION"-"$appbuild" "New release"
+  appbuild="r$(git log -1 --pretty=format:%h)
+  DEBFULLNAME="Ross Gammon" DEBEMAIL="rossgammon@debian.org" debchange -D UNRELEASED -v "$VERSION"-"$appbuild" "New release"
 fi
 python3 setup.py sdist
 
