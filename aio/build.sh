@@ -11,7 +11,7 @@ pacman -S --needed --noconfirm mingw-w64-x86_64-python mingw-w64-x86_64-python-p
     intltool mingw-w64-x86_64-python-lxml mingw-w64-x86_64-python-jsonschema \
     mingw-w64-x86_64-gspell mingw-w64-x86_64-geocode-glib mingw-w64-x86_64-python-pillow \
     git mingw-w64-x86_64-graphviz mingw-w64-x86_64-goocanvas mingw-w64-x86_64-osm-gps-map \
-    base-devel subversion mingw-w64-x86_64-python-graphviz mingw-w64-x86_64-osm-gps-map 
+    base-devel subversion mingw-w64-x86_64-python-graphviz mingw-w64-x86_64-osm-gps-map \
     mingw-w64-x86_64-nsis mingw-w64-x86_64-python-cx-freeze  mingw-w64-x86_64-python-requests \
     mingw-w64-x86_64-adwaita-icon-theme mingw-w64-x86_64-python-networkx mingw-w64-x86_64-python-psycopg2 \
     upx mingw-w64-x86_64-python-packaging unzip mingw-w64-x86_64-python-nose mingw-w64-x86_64-python-wheel \
