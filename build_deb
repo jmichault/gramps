@@ -1,0 +1,23 @@
+#
+        python3 setup.py egg_info
+        VERSION=$(grep "^Version:" gramps.egg-info/PKG-INFO|sed 's/Version: *//')
+        if grep -q '^DEV_VERSION\s*=\s*True' gramps/version.py; then
+          appbuild=$(git rev-parse --short $GITHUB_SHA)
+        else
+          appbuild=${{ inputs.build-number }}
+        fi
+        # create entry in debian/changelog, if needed :
+        if ! grep "^gramps ($VERSION" debian/changelog ; then
+          DEBFULLNAME="Gramps Project" DEBEMAIL="noreply@gramps-project.org" debchange -D UNRELEASED -v "$VERSION"-"$appbuild" "New release"
+        fi
+        python3 setup.py sdist
+        cd dist
+        tar zxf gramps-"$VERSION".tar.gz
+        mv gramps-"$VERSION".tar.gz gramps_"$VERSION".orig.tar.gz
+        cd gramps-"$VERSION"
+        # to allow resourcepath detection :
+        mkdir .git
+        # to make mediapath test successful :
+        mkdir -p build/.gramps
+        export LANG=en_US.utf8
+        debuild --no-sign

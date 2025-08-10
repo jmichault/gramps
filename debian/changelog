@@ -1,3 +1,88 @@
+gramps (6.0.4-1) unstable; urgency=medium
+
+  * Update translations: ca, cs, da, de, de_AT, es, fa, fi, fr, he, hr, hu, id, it, nl, pl, pt_PT, sk, ta, uk.
+  * Added Weblate translation for Bashkir.
+  * Fix regex matches in filter match method.
+  * Fix the problem of mixed filter types.
+  * Add context to translatable “Name:” labels in Glade files. Fixes #12527.
+  * Fix format character in the MatchesPersonFilter event rule. Fixes #13909, #13923.
+  * Fix file not found when we don’t want sources in narrated web report. Fixes #13875.
+  * Fix note attached to citation in narrated web report. Fixes #13852.
+  * Apply event place filters to the place not the event. Fixes #13797.
+  * Added new fieldtype 48 to support Pro-Gen version 3.5.
+  * Normalize gzip mtime for reproducible builds.
+  * Fix regression in relationship path between people filter.
+
+ -- Ross Gammon <rossgammon@debian.org>  Sat, 12 Feb 2022 17:01:21 +0100
+
+gramps (6.0.3-1) unstable; urgency=medium
+
+  * Update translations: de_AT, en_GB, es, uk.
+  * Revert “Pass an object rather than a handle to the note editor callback”. Fixes #13884.
+  * Package Gramps 6.0.2 on macOS.
+
+ -- Ross Gammon <rossgammon@debian.org>  Sat, 12 Feb 2022 17:01:21 +0100
+
+gramps (6.0.2-1) unstable; urgency=medium
+
+  * Update translations: bg, ca, cs, da, de, de_AT, eo, es, fi, fr, ga, he, id, ko, lt, nb, nl, pl, pt_PT, ru, sk, sv, tr, zh_CN.
+  * Fix date modifiers for lt.
+  * Update translation template for new release.
+  * Add optimization to HasIdOf rules.
+  * Connect the Help button in the repository reference editor. Fixes #13352.
+  * Pass an object rather than a handle to the note editor callback. Fixes #13702.
+  * Fix broken compound dates with bce year in XML import. Fixes #13631.
+  * Avoid multiple copies of Rules after Plugin manager reload. Fixes #13844.
+  * Fix bad surname list after upgrade from bsddb. Fixes #13807.
+  * Fix narrated web when two places have same name but a different type. Fixes #13841.
+  * Fix crash in citation view due to wrong filter_info. Fixes #13796.
+  * Don’t attempt to call set_orientation if self.pui is None. Fixes #13820.
+  * Don’t crash in search_changed if self.search_list has no active item. Fixes #13793.
+  * Fix incorrect addons project after upgrade from Gramps 5.2. Fixes #13789.
+  * Respect user choice of CSS files for existing narrated web site. Fixes #13792.
+  * Ensure that the spell checker gets removed with the editor. Fixes #13795.
+  * Fix Optimizer class when combining sub-filters. Fixes #13799.
+  * Remove check for Gtk translations in Snap packages.
+  * Mac:
+  *     Add lxml to python modules included in Gramps.app.
+  *     Fix macos build version error: Wrong tarball for 6.0.1.
+  *     Package Gramps-6.0.1 for macOS.
+
+
+ -- Ross Gammon <rossgammon@debian.org>  Sat, 12 Feb 2022 17:01:21 +0100
+
+gramps (6.0.1-1) unstable; urgency=medium
+
+  * Update translations: ar, br, ca, cs, de, de_AT, el, en_GB, es, fi, fr, ga, he, it, ja, ko, nb, nl, pl, pt_PT, ro, sk, sv, tr, uk, zh_CN.
+  * Update translation template for new release.
+  * Extend SearchBar so that it supports text search and filters. Fixes #13720.
+  * Fix patronymic in name display. Fixes #13764.
+  * Update links in the README to v6.0.
+  * Update the INSTALL file. Issue #13717.
+  *     Change install from setup.py to pip.
+  *     Update typical installation locations.
+  *     Remove the --resourcepath option which no longer exists.
+  * Fix wiki help link in the Addon Manager. Fixes #13735.
+  * Remove the outer progress meter from the filter prepare phase. Fixes #13725.
+  * Fix error when importing a GEDCOM file into an existing tree. Fixes #13726.
+  * Avoid empty metadata fields. Fixes #13721.
+  * Update Italian date modifiers.
+  * Mac:
+  *     Fix return value list for no locale. Fixes #13727.
+  *     Change gramps-git and gramps-addons-git modules to pip module type.
+  *     [mac gramps_launcher] Fix bad comment formatting.
+  *     Fix GRAMPSDIR for Python versions > 9.
+  *     Package Gramps-6.0.0 on macOS.
+
+ -- Ross Gammon <rossgammon@debian.org>  Sat, 12 Feb 2022 17:01:21 +0100
+
+gramps (6.0.1-1) unstable; urgency=medium
+
+  * New Release
+  * see https://gramps.discourse.group/t/gramps-v6-0-0-released/7282
+
+ -- Ross Gammon <rossgammon@debian.org>  Sat, 12 Feb 2022 17:01:21 +0100
+
 gramps (5.1.5-1) unstable; urgency=medium
 
   * New release
