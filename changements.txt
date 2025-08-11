@@ -1,0 +1,12 @@
+
+9 fichiers changés :
+
+gramps/gui/editors/displaytabs/backreflist.py
+gramps/gui/editors/displaytabs/buttontab.py
+gramps/gui/editors/displaytabs/citationembedlist.py
+gramps/gui/editors/displaytabs/embeddedlist.py
+gramps/gui/editors/displaytabs/eventembedlist.py
+gramps/gui/editors/displaytabs/groupembeddedlist.py
+gramps/gui/editors/displaytabs/personeventembedlist.py
+gramps/gui/editors/displaytabs/webembedlist.py
+gramps/gui/editors/editfamily.py
