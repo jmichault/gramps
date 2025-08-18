@@ -181,3 +181,17 @@ class SrcAttrEmbedList(EmbeddedList):
     def edit_callback(self, name):
         self.changed = True
         self.rebuild()
+
+    def get_popup_menu_items(self):
+        items = EmbeddedList.get_popup_menu_items(self)
+        attr = self.get_selected()
+        if attr and attr.get_type() == _('Internet Address') :
+            items.append( (True, _("_Jump to"), self.jump_button_clicked))
+        return items
+        
+    def jump_button_clicked(self, obj):
+        from ...display import display_url
+
+        attr = self.get_selected()
+        if attr and attr.get_value():
+            display_url(attr.get_value())
