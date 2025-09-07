@@ -16785,14 +16785,6 @@ msgctxt "family"
 msgid "Name:"
 msgstr "Ime:"
 
-#: ../gramps/gui/glade/editfamily.glade:116
-#: ../gramps/gui/glade/editfamily.glade:379
-#, fuzzy
-#| msgid "Name:"
-msgctxt "family"
-msgid "Name:"
-msgstr "Ime:"
-
 #: ../gramps/gui/glade/editfamily.glade:129
 #: ../gramps/gui/glade/editfamily.glade:392
 msgid "Birth:"

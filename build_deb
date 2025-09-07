@@ -1,4 +1,6 @@
 #
+#  mettre à jour debian/changelog
+#
         python3 setup.py egg_info
         VERSION=$(grep "^Version:" gramps.egg-info/PKG-INFO|sed 's/Version: *//')
         if grep -q '^DEV_VERSION\s*=\s*True' gramps/version.py; then
