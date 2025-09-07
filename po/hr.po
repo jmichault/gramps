@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Gramps 5.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 22:14+0100\n"
-"PO-Revision-Date: 2025-08-07 20:02+0000\n"
+"PO-Revision-Date: 2025-09-03 12:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gramps-project/"
 "gramps/hr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 
@@ -11339,8 +11339,8 @@ msgid ""
 "The data can only be recovered by Undo operation or by quitting with "
 "abandoning changes."
 msgstr ""
-"Podaci mogu biti vraćeni samo poništavanjem prethodnih koraka ili izlazom, s "
-"odustajanjem od promjena."
+"Podaci se mogu obnoviti samo poništavanjem prethodnih koraka ili zatvaranjem "
+"Grampsa I odacivanjem promjena."
 
 #: ../gramps/gen/utils/symbols.py:84 ../gramps/gui/editors/editfamily.py:987
 #: ../gramps/plugins/graph/gvfamilylines.py:97
@@ -13278,7 +13278,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Pokušaj preimenovanja verzije nije uspjeo. Poruka glasi:\n"
+"Pokušaj preimenovanja verzije nije uspio. Poruka glasi:\n"
 "\n"
 "%s"
 
@@ -13344,7 +13344,7 @@ msgstr ""
 #: ../gramps/gui/dbman.py:839
 #, python-format
 msgid "Convert the '%s' database?"
-msgstr "Konvertiraj bazu podataka „%s”?"
+msgstr "Konvertirati bazu podataka „%s”?"
 
 #: ../gramps/gui/dbman.py:841
 #, python-format
@@ -13374,7 +13374,7 @@ msgstr "Konvertiranje baze podataka „%s”"
 
 #: ../gramps/gui/dbman.py:876
 msgid "An attempt to export the database failed."
-msgstr "Pokušaj izvoza baze podataka nije uspjeo."
+msgstr "Pokušaj izvoza baze podataka nije uspio."
 
 #: ../gramps/gui/dbman.py:881
 msgid "Converting data..."
@@ -13387,7 +13387,7 @@ msgstr "(Konvertirano #%d)"
 
 #: ../gramps/gui/dbman.py:903
 msgid "An attempt to import into the database failed."
-msgstr "Pokušaj uvoza baze podataka nije uspjeo."
+msgstr "Pokušaj uvoza baze podataka nije uspio."
 
 #: ../gramps/gui/dbman.py:961
 msgid "Repair Family Tree?"
@@ -13472,7 +13472,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Pokušaj pronalaženja podataka nije uspjeo. Poruka glasi:\n"
+"Pokušaj pronalaženja podataka nije uspio. Poruka glasi:\n"
 "\n"
 "%s"
 
@@ -14281,7 +14281,7 @@ msgstr "Obuhvaćeno"
 
 #: ../gramps/gui/editors/displaytabs/placerefembedlist.py:215
 msgid "Place cycle detected"
-msgstr "Petlja u mjestima"
+msgstr "Otkrivena je petlja u mjestima"
 
 #: ../gramps/gui/editors/displaytabs/placerefembedlist.py:216
 msgid "The place you are adding is already enclosed by this place"
@@ -16777,7 +16777,13 @@ msgstr "Dijeljene informacije"
 #: ../gramps/gui/glade/editrepository.glade:29
 #: ../gramps/gui/glade/editsource.glade:28
 msgid "Abandon changes and close window"
-msgstr "Odustani od promjena i zatvori prozor"
+msgstr "Odbaci promjene i zatvori prozor"
+
+#: ../gramps/gui/glade/editfamily.glade:116
+#: ../gramps/gui/glade/editfamily.glade:379
+msgctxt "family"
+msgid "Name:"
+msgstr "Ime:"
 
 #: ../gramps/gui/glade/editfamily.glade:116
 #: ../gramps/gui/glade/editfamily.glade:379
@@ -17829,8 +17835,6 @@ msgstr "Osoba 2"
 
 #: ../gramps/gui/glade/mergeperson.glade:218
 #: ../gramps/gui/glade/mergeperson.glade:233
-#, fuzzy
-#| msgid "Name:"
 msgctxt "person"
 msgid "Name:"
 msgstr "Ime:"
@@ -18441,7 +18445,7 @@ msgstr "Kronologija obrade"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Abandon Changes and Quit"
-msgstr "_Odustani od promjena i zatvori Gramps"
+msgstr "_Odbaci promjene i zatvori Gramps"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_About"
@@ -18670,7 +18674,7 @@ msgid ""
 "review exactly what information you want to include."
 msgstr ""
 "Ovo je pomoćnik za prijavu greške. Pomoći će ti u stvaranju što detaljnijeg "
-"izvještaja o grešci, za prijavu razvijateljima Grampsa.\n"
+"izvještaja o grešci, za prijavu programere Grampsa.\n"
 "\n"
 "Postaviti će ti nekoliko pitanja i sakupiti podatke o nastaloj grešci te "
 "operacijskom okruženju. Na kraju ćemo te zamoliti, da prijaviš grešku na "
@@ -18758,8 +18762,9 @@ msgid ""
 "This is the completed bug report. The next page of the assistant will help "
 "you to file a bug on the Gramps bug tracking system website."
 msgstr ""
-"Ovo je cjeloviti izvještaj o greškama. Sljedeća stranica će vam pomoći "
-"prijaviti grešku na web stranici Grampsovog sustava za praćenje grešaka."
+"Ovo je cjeloviti izvještaj o greškama. Sljedeća stranica pomoćnika će ti "
+"pomoći prijaviti grešku na web stranici Grampsovog sustava za praćenje "
+"grešaka."
 
 #: ../gramps/gui/logger/_errorreportassistant.py:659
 msgid ""
@@ -20481,7 +20486,7 @@ msgstr "Spremno"
 
 #: ../gramps/gui/viewmanager.py:673
 msgid "Abort changes?"
-msgstr "Odustati od promjena?"
+msgstr "Prekinuti promjene?"
 
 #: ../gramps/gui/viewmanager.py:675
 msgid ""
@@ -20493,19 +20498,19 @@ msgstr ""
 
 #: ../gramps/gui/viewmanager.py:678
 msgid "Abort changes"
-msgstr "Odustani od promjena"
+msgstr "Prekini promjene"
 
 #: ../gramps/gui/viewmanager.py:690
 msgid "Cannot abandon session's changes"
-msgstr "Nije moguće odustati od promjena u ovoj sesiji"
+msgstr "Nije moguće odbaciti promjene ove sesije"
 
 #: ../gramps/gui/viewmanager.py:692
 msgid ""
 "Changes cannot be completely abandoned because the number of changes made in "
 "the session exceeded the limit."
 msgstr ""
-"Napravljene promjene ne mogu biti poništene, zbog toga što je broj promjena "
-"u ovoj sesiji prešao zadanu granicu."
+"Napravljene promjene se ne mogu potpuno odbaciti jer je broj promjena u ovoj "
+"sesiji prešao zadanu granicu."
 
 #: ../gramps/gui/viewmanager.py:893
 msgid "View failed to load. Check error output."
@@ -27174,8 +27179,8 @@ msgid ""
 "Mismatch between selected extension %(ext)s and actual format.\n"
 " Writing to %(filename)s in format %(impliedext)s."
 msgstr ""
-"Neslaganje između odabranog dodatka %(ext)s i stvarnog formata.\n"
-"Zapisivanje %(filename)s u formatu %(impliedext)s."
+"Neslaganje između odabranog sufiksa %(ext)s i stvarnog formata.\n"
+"Zapisusje se u %(filename)s u formatu %(impliedext)s."
 
 #: ../gramps/plugins/lib/libgedcom.py:739
 msgid "Common Law Marriage"
@@ -27266,7 +27271,7 @@ msgstr "Izvještaj GEDCOM uvoza: Nisu otkrivene greške"
 #: ../gramps/plugins/lib/libgedcom.py:3135
 #, python-format
 msgid "GEDCOM import report: %s errors detected"
-msgstr "Izvještaj GEDCOM uvoza: broj otkrivenih grešaka: %s"
+msgstr "Izvještaj GEDCOM uvoza: Broj otkrivenih grešaka: %s"
 
 #: ../gramps/plugins/lib/libgedcom.py:3461
 #: ../gramps/plugins/lib/libgedcom.py:3485
@@ -34389,7 +34394,7 @@ msgstr "Nisu učinjene promjene"
 
 #: ../gramps/plugins/tool/changenames.py:172
 msgid "No capitalization changes were detected."
-msgstr "Nisu ustanovljene promjene u pisanju početnih slova prezimena."
+msgstr "Nisu otkrivene promjene u velikim početnim slovima."
 
 #: ../gramps/plugins/tool/changenames.py:229
 msgid "Original Name"
@@ -34397,7 +34402,7 @@ msgstr "Izvorno ime"
 
 #: ../gramps/plugins/tool/changenames.py:233
 msgid "Capitalization Change"
-msgstr "Promjena u pisanju početnih slova prezimena"
+msgstr "Promjena u velikim početnim slovima"
 
 #: ../gramps/plugins/tool/changenames.py:240
 #: ../gramps/plugins/tool/eventcmp.py:311
@@ -35246,8 +35251,8 @@ msgstr "Dotična staza"
 msgid ""
 "Press Apply to proceed, Cancel to abort, or Back to revisit your options."
 msgstr ""
-"Pritisni gumb „U redu” za nastavak, „Odustani” za prekid ili „Natrag” za "
-"mijenjanje opcija."
+"Pritisni gumb „Primijeni” za nastavljanje, „Odustani” za prekid ili „Natrag” "
+"za mijenjanje opcija."
 
 #: ../gramps/plugins/tool/mediamanager.py:408
 msgid "Operation successfully finished"
@@ -37689,7 +37694,7 @@ msgstr "%(event_type)s %(place)s"
 
 #: ../gramps/plugins/view/relview.py:1609
 msgid "Broken family detected"
-msgstr "Otkrivena pokvarena obitelj"
+msgstr "Otkrivena je pokvarena obitelj"
 
 #: ../gramps/plugins/view/relview.py:1610
 msgid "Please run the Check and Repair Database tool"
@@ -38533,7 +38538,7 @@ msgstr "Datotečni sufiks"
 #: ../gramps/plugins/webreport/narrativeweb.py:2179
 #: ../gramps/plugins/webreport/webcal.py:1868
 msgid "The extension to be used for the web files"
-msgstr "Sufiks korišten za imena web datoteka"
+msgstr "Sufiks koji se koristi za web datoteke"
 
 #: ../gramps/plugins/webreport/narrativeweb.py:2183
 #: ../gramps/plugins/webreport/webcal.py:1871
@@ -38651,7 +38656,7 @@ msgstr "Staza tvoje dodatne stranice"
 
 #: ../gramps/plugins/webreport/narrativeweb.py:2276
 msgid "Your extra page path without extension"
-msgstr "Staza tvoje dodatne stranice bez datotečnog nastavka"
+msgstr "Staza tvoje dodatne stranice bez sufiksa"
 
 #: ../gramps/plugins/webreport/narrativeweb.py:2291
 msgid "Do we use multiple translations?"
@@ -38803,7 +38808,7 @@ msgid ""
 "This option will be available only if the .php file extension is selected."
 msgstr ""
 "Zabilješka koja će se koristiti za pokretanje php sesije.\n"
-"Ova će mogućnost biti dostupna samo ako je odabran datotečni nastavak .php."
+"Ova će mogućnost biti dostupna samo ako je odabran sufiks .php."
 
 #: ../gramps/plugins/webreport/narrativeweb.py:2425
 msgid "Images Generation"

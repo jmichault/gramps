@@ -5,13 +5,13 @@
 # Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>, 2019, 2021, 2022, 2023, 2024, 2025.
 # Nick Hall <nick-h@gramps-project.org>, 2021, 2023, 2024.
 # Omer I.S. <omeritzicschwartz@gmail.com>, 2021, 2022, 2023.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2023, 2024.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Gramps 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 22:14+0100\n"
-"PO-Revision-Date: 2025-08-10 15:45+0000\n"
+"PO-Revision-Date: 2025-09-06 06:01+0000\n"
 "Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/gramps-project/"
 "gramps/he/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "X-Poedit-Bookmarks: 1508,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: ../data/holidays.xml:3
@@ -377,10 +377,10 @@ msgid ""
 "the level of confidence in a date and even choose between seven different "
 "calendars. Try the button next to the date field in the Events Editor."
 msgstr ""
-"‎‏‏‏‏<b>עבודה עם תאריכים</b><br/>ניתן לקבוע לאירוע טווח תאריכים תוך שימוש בתסדיר "
+"‎‏‏‏‏<b/>עבודה עם תאריכים<b><br/>ניתן לקבוע טווח תאריכים לאירוע תוך שימוש בתסדיר "
 "&lsquo;בין 4 בינואר 2000 ל־20 במרץ 2003&rsquo;. ניתן גם לציין רמת ודאות "
-"לתאריך, ולבחור בין שבעה לוחות־שנה שונים. כל זאת נעשה באמצעות הלחצן שלצד שדה "
-"התאריך בעורך האירועים."
+"לתאריך, ולבחור אחד מבין שבעה לוחות־שנה שונים. כל זאת נעשה באמצעות הלחצן שלצד "
+"שדה התאריך בעורך האירועים."
 
 #: ../data/tips.xml:6
 msgid ""
@@ -422,10 +422,11 @@ msgid ""
 "you will get to hear some great stories. Don't forget to record the "
 "conversations!"
 msgstr ""
-"‌<b>שוחחו עם קרובי המשפחה לפני שיהיה מאוחר מדי<br/></b>קרובי המשפחה המבוגרים "
-"ביותר יכולים להוות מקור למידע חשוב. הם בדרך כלל יודעים דברים שלא נכתבו על "
-"המשפחה. הם יכולים לספר נקודות על אנשים שיום אחד עשויים לשמש נושא למחקר. "
-"במקרה הגרוע ביותר, תוכלו לשמוע כמה סיפורים טובים. לא לשכוח להקליט את השיחות!"
+"‌<b>כדאי לשוחח עם קרובי המשפחה לפני שיהיה מאוחר מדי<br/></b>קרובי המשפחה "
+"המבוגרים ביותר יכולים להוות מקור למידע חשוב. הם בדרך כלל יודעים דברים שלא "
+"נכתבו על המשפחה. הם יכולים להציף נקודות על אנשים שיום אחד עשויים לשמש נושא "
+"למחקר. במקרה הגרוע ביותר, אפשר יהיה לשמוע כמה סיפורים טובים. לא לשכוח להקליט "
+"את השיחות!"
 
 #: ../data/tips.xml:14
 msgid ""
@@ -554,7 +555,7 @@ msgid ""
 msgstr ""
 "<b>הגדרת העדפות<br/></b> מתפריט 'עריכה > העדפות...' מאפשר שינוי מספר הגדרות "
 "כמו, הנתיב לקובצי המדיה, וכן, התאמת היבטים רבים נוספים של גרמפס. ניתן גם "
-"להגדיר כל מצג בנפרד מתפריט 'מצג > תצור מצג...'."
+"להגדיר כל מצג בנפרד מתפריט 'מצג > תיצור מצג...'."
 
 #: ../data/tips.xml:34
 msgid ""
@@ -1162,7 +1163,7 @@ msgstr ""
 
 #: ../gramps/cli/arghandler.py:313
 msgid "OK to overwrite?"
-msgstr "האם לכתוב על הקיים?"
+msgstr "האם בסדר לכתוב על הקיים?"
 
 #: ../gramps/cli/arghandler.py:315 ../gramps/cli/arghandler.py:317
 #: ../gramps/cli/clidbman.py:469
@@ -1568,7 +1569,7 @@ msgstr "    הגדרת תצורת גרמפס חדשה: %(name)s:%(value)s"
 #: ../gramps/cli/argparser.py:405
 #, python-format
 msgid "Gramps: no such config setting: '%s'"
-msgstr "גרמפס: אין הגדרות תצור כאלו: '%s'"
+msgstr "גרמפס: אין הגדרות תיצור כאלו: '%s'"
 
 #: ../gramps/cli/argparser.py:498
 msgid "Error parsing the arguments"
@@ -7426,7 +7427,7 @@ msgstr "איש דת"
 
 #: ../gramps/gen/lib/eventroletype.py:75
 msgid "Celebrant"
-msgstr "מנהל הטקס"
+msgstr "מנהל טקס"
 
 #: ../gramps/gen/lib/eventroletype.py:76
 msgid "Aide"
@@ -7530,10 +7531,7 @@ msgstr "שכן"
 
 #: ../gramps/gen/lib/eventroletype.py:90
 msgid "Officiator"
-msgstr ""
-"מנחה טקס הוא אדם שמנהל טקס. הוא יכול להיות נציג דתי או פקיד חילוני. תקן "
-"GEDCOM מתאר \"איש דת\" (Clergy) כאיש דת שמשתתף באירוע, ומשתמע מכך שהוא עורך "
-"הטקס."
+msgstr "מנחה טקס"
 
 #: ../gramps/gen/lib/eventtype.py:152
 msgid "Life Events"
@@ -7745,7 +7743,7 @@ msgstr "הסמכה"
 
 #: ../gramps/gen/lib/eventtype.py:228
 msgid "Probate"
-msgstr "אישור צוואה"
+msgstr "קיום צוואה"
 
 #: ../gramps/gen/lib/eventtype.py:229
 msgid "Property"
@@ -12612,7 +12610,7 @@ msgstr "כול 12שעות"
 
 #: ../gramps/gui/configure.py:2334
 msgid "Every day"
-msgstr "כול יום"
+msgstr "כל יום"
 
 #: ../gramps/gui/configure.py:2340
 msgid "Autobackup"
@@ -12838,7 +12836,7 @@ msgstr "תוחם:"
 
 #: ../gramps/gui/dbloader.py:116 ../gramps/gui/plug/tool.py:124
 msgid "Undo history warning"
-msgstr "אזהרת הסגת היסטוריה"
+msgstr "אזהרת היסטוריית הסגה"
 
 #: ../gramps/gui/dbloader.py:118
 msgid ""
@@ -13031,7 +13029,7 @@ msgstr "מידע מסד־נתונים"
 #: ../gramps/plugins/tool/reorderids.glade:197
 #: ../gramps/plugins/tool/testcasegenerator.py:395
 msgid "_OK"
-msgstr "אי_שור"
+msgstr "_בסדר"
 
 #: ../gramps/gui/dbman.py:126
 msgid "Setting"
@@ -13868,7 +13866,7 @@ msgstr "_מורמונים"
 
 #: ../gramps/gui/editors/displaytabs/locationembedlist.py:70
 msgid "Alternate _Locations"
-msgstr "מיקומים _חליפיים"
+msgstr "מיקומים _חלופיים"
 
 #: ../gramps/gui/editors/displaytabs/nameembedlist.py:64
 msgid "Create and add a new name"
@@ -16092,7 +16090,7 @@ msgstr "תוית"
 
 #: ../gramps/gui/glade/dialog.glade:903
 msgid "Close _without saving"
-msgstr "_סגירת בלי לשמור"
+msgstr "_סגירה ללא שמירה"
 
 #: ../gramps/gui/glade/dialog.glade:935
 #: ../gramps/gui/plug/report/_bookdialog.py:649
@@ -16451,7 +16449,7 @@ msgstr "הע_רת מלל:"
 
 #: ../gramps/gui/glade/editevent.glade:29
 msgid "Close window without changes"
-msgstr "סגירת חלון בלי שינויים"
+msgstr "סגירת חלון ללא שינויים"
 
 #: ../gramps/gui/glade/editevent.glade:97
 #: ../gramps/gui/glade/editeventref.glade:241
@@ -16543,8 +16541,6 @@ msgstr "נטישת שינויים וסגירת חלון"
 
 #: ../gramps/gui/glade/editfamily.glade:116
 #: ../gramps/gui/glade/editfamily.glade:379
-#, fuzzy
-#| msgid "Name:"
 msgctxt "family"
 msgid "Name:"
 msgstr "שם:"
@@ -16830,7 +16826,7 @@ msgstr "סיומ_ת:"
 
 #: ../gramps/gui/glade/editname.glade:232
 msgid "C_all Name:"
-msgstr "מ_כונה בשם:"
+msgstr "שם מ_קובל:"
 
 #: ../gramps/gui/glade/editname.glade:247
 #: ../gramps/gui/glade/editperson.glade:148
@@ -16991,7 +16987,7 @@ msgstr "_חיבה:"
 
 #: ../gramps/gui/glade/editperson.glade:333
 msgid "Click on a table cell to edit."
-msgstr "לעריכה, נא להקיש על תא בטבלה."
+msgstr "הקשה על תא בטבלה לעריכה."
 
 #: ../gramps/gui/glade/editperson.glade:352
 msgid ""
@@ -17247,7 +17243,7 @@ msgstr "_שם:"
 #: ../gramps/gui/glade/editreporef.glade:301
 #: ../gramps/gui/glade/editrepository.glade:127
 msgid "Name of the repository (where sources are stored)."
-msgstr "אף אחד מהמאגרים (היכן שאוחסנו המקורות)."
+msgstr "שם המאגר (מקום אחסון המקורות)."
 
 #: ../gramps/gui/glade/editreporef.glade:337
 msgid ""
@@ -17332,11 +17328,11 @@ msgstr "כיתוב תיאורי של אתר המרשתת לאחסון."
 
 #: ../gramps/gui/glade/grampletpane.glade:62
 msgid "Drag to move; click to detach"
-msgstr "נא לגרור להעברה; הקשה לניתוק"
+msgstr "גרירה להעברה; הקשה לניתוק"
 
 #: ../gramps/gui/glade/grampletpane.glade:70
 msgid "Config"
-msgstr "תצור"
+msgstr "תיצור"
 
 #: ../gramps/gui/glade/grampletpane.glade:77
 msgid "Detach"
@@ -17348,7 +17344,7 @@ msgstr "הקשה להרחבה/כווץ"
 
 #: ../gramps/gui/glade/grampletpane.glade:126
 msgid "Click to delete gramplet from view"
-msgstr "נא להקיש למחיקת גרמפלט ממצג"
+msgstr "הקשה למחיקת גרמפלט ממצג"
 
 #: ../gramps/gui/glade/grampletpane.glade:141
 #: ../gramps/gui/views/listview.py:647
@@ -17569,8 +17565,6 @@ msgstr "אדם 2"
 
 #: ../gramps/gui/glade/mergeperson.glade:218
 #: ../gramps/gui/glade/mergeperson.glade:233
-#, fuzzy
-#| msgid "Name:"
 msgctxt "person"
 msgid "Name:"
 msgstr "שם:"
@@ -18137,7 +18131,7 @@ msgstr "ספרים…"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "Configure the active view"
-msgstr "תצור המצג הפעיל"
+msgstr "תיצור המצג הפעיל"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "Connect to a recent database"
@@ -18174,7 +18168,7 @@ msgstr "עצה יומית"
 
 #: ../gramps/gui/grampsgui.py:58 ../gramps/gui/undohistory.py:74
 msgid "Undo History"
-msgstr "היסטוריית הסגות"
+msgstr "היסטוריית הסגה"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Abandon Changes and Quit"
@@ -18194,7 +18188,7 @@ msgstr "_סימניות"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Configure..."
-msgstr "_תצור..."
+msgstr "_תיצור..."
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Export..."
@@ -18234,7 +18228,7 @@ msgstr "_ניווט"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Plugin Manager"
-msgstr "_מנהל התוספים"
+msgstr "_מנהל המתקעים"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Preferences..."
@@ -18270,7 +18264,7 @@ msgstr "_מצג"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Windows"
-msgstr "_וינדוס"
+msgstr "_חלונות"
 
 #: ../gramps/gui/grampsgui.py:395
 msgid ""
@@ -18377,7 +18371,7 @@ msgid ""
 msgstr ""
 "\n"
 "גרמפס לא הצליח לאתחל. נא לדווח על תקל.\n"
-"יתכן כי נגרם כתוצה משגיאת אתחול מצג (צד ג׳).\n"
+"יתכן כי נגרם כתוצה משגיאת אתחול מצג (צד־שלישי).\n"
 "על מנת להשתמש במצג אחר, נא לא לטעון אילן־יוחסין, לשנות תצוגה ורק אז לטעון את "
 "אילן־היוחסין הרצוי.\n"
 "ניתן גם לשנות באופן ידני את מצג האתחול בקובץ gramps.ini\n"
@@ -19183,7 +19177,7 @@ msgstr "בסדר"
 
 #: ../gramps/gui/plug/_windows.py:1647
 msgid "Plugin name"
-msgstr "שם מתקעים"
+msgstr "שם מתקע"
 
 #: ../gramps/gui/plug/_windows.py:1650
 msgid "Authors"
@@ -19417,7 +19411,7 @@ msgstr[1] "{number_of} אנשים"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:185
 msgid "Click to see preview of unfiltered data"
-msgstr "הקשה לתצוגה מקדימה של מידע 'לא מסונן'"
+msgstr "הקשה לתצוגה מקדימה של נתונים 'לא מסוננים'"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:197
 msgid "_Do not include records marked private"
@@ -19438,7 +19432,7 @@ msgstr "_מסנן אנשים"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:321
 msgid "Click to see preview after person filter"
-msgstr "הקשה לתצוגה מקדימה של מסנן 'אדם'"
+msgstr "הקשה לתצוגה מקדימה לאחר סינון 'אדם'"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:326
 msgid "_Note Filter"
@@ -19446,7 +19440,7 @@ msgstr "_מסנן הערות"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:344
 msgid "Click to see preview after note filter"
-msgstr "הקשה לתצוגה מקדימה של מסנן 'הערות'"
+msgstr "הקשה לתצוגה מקדימה לאחר סינון 'הערות'"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:347
 msgid "Privacy Filter"
@@ -19454,7 +19448,7 @@ msgstr "מסנן פרטיות"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:355
 msgid "Click to see preview after privacy filter"
-msgstr "הקשה לתצוגה מקדימה שלמסנן 'פרטיות'"
+msgstr "הקשה לתצוגה מקדימה לאחר סינון 'פרטיות'"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:358
 msgid "Living Filter"
@@ -19462,7 +19456,7 @@ msgstr "מסנן בחיים"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:367
 msgid "Click to see preview after living filter"
-msgstr "הקשה לתצוגה מקדימה של מסנן 'בחיים'"
+msgstr "הקשה לתצוגה מקדימה לאחר סינון 'בחיים'"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:371
 msgid "Reference Filter"
@@ -19470,7 +19464,7 @@ msgstr "מסנן אזכורים"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:379
 msgid "Click to see preview after reference filter"
-msgstr "הקשה לתצוגה מקדימה של מסנן 'אזכורים'"
+msgstr "הקשה לתצוגה מקדימה לאחר סינון 'אזכורים'"
 
 #: ../gramps/gui/plug/export/_exportoptions.py:430
 msgid "Hide order"
@@ -19640,7 +19634,7 @@ msgstr "לא נבחר פריט ספר"
 
 #: ../gramps/gui/plug/report/_bookdialog.py:578
 msgid "Please select a book item to configure."
-msgstr "נא לבחור בפריט ספר לתצור."
+msgstr "נא לבחור בפריט ספר לתיצור."
 
 #: ../gramps/gui/plug/report/_bookdialog.py:643
 #: ../gramps/gui/views/bookmarks.py:310 ../gramps/gui/views/tags.py:493
@@ -20120,7 +20114,7 @@ msgstr "אישור מחיקה"
 
 #: ../gramps/gui/undohistory.py:197
 msgid "Are you sure you want to clear the Undo history?"
-msgstr "האם לסלקהיסטוריית הסגות?"
+msgstr "האם לסלק היסטוריית הסגות?"
 
 #: ../gramps/gui/undohistory.py:198 ../gramps/plugins/gramplet/eval.py:83
 msgid "Clear"
@@ -20447,7 +20441,7 @@ msgstr "מחיקת %s?"
 
 #: ../gramps/gui/views/listview.py:768
 msgid "Column clicked, sorting..."
-msgstr "מיון..."
+msgstr "עמודה הוקשה, מתבצע מיון..."
 
 #: ../gramps/gui/views/listview.py:1256
 msgid "Export View as Spreadsheet"
@@ -20526,7 +20520,7 @@ msgstr "%(cat)s - %(view)s"
 #: ../gramps/gui/views/pageview.py:670
 #, python-format
 msgid "Configure %s View"
-msgstr "תצור מצג %s"
+msgstr "תיצור מצג %s"
 
 #: ../gramps/gui/views/pageview.py:688
 #, python-format
@@ -20766,7 +20760,7 @@ msgstr "גרירת לחצן מאפיינים למיקום מחדש והקשה ל
 
 #: ../gramps/gui/widgets/grampletpane.py:1037
 msgid "Right click to add gramplets"
-msgstr "נא להקיש על מקש ימני בעכבר להוספת גרמפלטים"
+msgstr "הקשת עכבר ימנית להוספת גרמפלטים"
 
 #: ../gramps/gui/widgets/grampletpane.py:1082
 msgid "Untitled Gramplet"
@@ -20798,9 +20792,9 @@ msgid ""
 "Right click to display the edit menu\n"
 "Click Edit icon (enable in configuration dialog) to edit"
 msgstr ""
-"הקשה להפיכה לאדם הפעיל\n"
-"הקשה ימנית להצגת תפריט העריכה\n"
-"הקשה על צלמית (ניתן לאפשור בתיבת דו־השיח 'תצורה') לעריכה"
+"הקשה להפיכה לשפעול אדם\n"
+"הקשת עכבר ימנית להצגת תפריט העריכה\n"
+"הקשה על סמל (ניתן לאפשור בתיבת הדו־שיח 'תצורה') לעריכה"
 
 #: ../gramps/gui/widgets/monitoredwidgets.py:661
 msgid "Bad Date"
@@ -20814,7 +20808,7 @@ msgstr "מתוארך ביותר משנה בעתיד"
 msgid ""
 "Double-click on the picture to view it in the default image viewer "
 "application."
-msgstr "נא להקיש הקשת עכבר כפולה על תמונה כדי להציגה במשקף ברירת המחדל."
+msgstr "הקשת עכבר כפולה על תמונה כדי להציגה במשקף ברירת המחדל."
 
 #: ../gramps/gui/widgets/photo.py:92
 msgid "Make Active Media"
@@ -20870,7 +20864,7 @@ msgid ""
 "Command-Click to follow link"
 msgstr ""
 "\n"
-"החזקת מקש Ctrl והקשה על הקישור למעבר לעמוד"
+"Ctrl+והקשה על הקישור למעבר לעמוד"
 
 #: ../gramps/gui/widgets/styledtexteditor.py:477
 msgid ""
@@ -20878,7 +20872,7 @@ msgid ""
 "Ctrl-Click to follow link"
 msgstr ""
 "\n"
-"החזקת מקש Ctrl והקשה על הקישור למעבר לעמוד"
+"Ctrl+הקשה על הקישור למעבר לעמוד"
 
 #: ../gramps/gui/widgets/styledtexteditor.py:534
 msgid "Spellcheck"
@@ -22726,7 +22720,7 @@ msgid ""
 "based view"
 msgstr ""
 "CSV הוא תסדיר גליון נפוץ.\n"
-"ניתן לשנות התנהגות זו מתפריט 'תצור מצג פעיל' מכל מצג מבוסס רשימה"
+"ניתן לשנות התנהגות זו מתפריט 'תיצור מצג פעיל' מכל מצג מבוסס רשימה"
 
 #: ../gramps/plugins/export/export.gpr.py:49
 msgid "CSV spreadsheet options"
@@ -23013,7 +23007,7 @@ msgstr ""
 
 #: ../gramps/plugins/gramplet/ageondategramplet.py:56
 msgid "Enter a date, click Run"
-msgstr "נא למלא תאריך וללחוץ על הרצה"
+msgstr "הזנת תאריך, הקשה על הרצה"
 
 #: ../gramps/plugins/gramplet/ageondategramplet.py:66
 msgid ""
@@ -23093,7 +23087,7 @@ msgstr "מרבי"
 #: ../gramps/plugins/gramplet/agestats.py:316
 #, python-format
 msgid "Double-click to see %d people"
-msgstr "נא להקיש כפולה להצגת %d אנשים"
+msgstr "הקשה כפולה להצגת %d אנשים"
 
 #: ../gramps/plugins/gramplet/ancestor.py:186
 #: ../gramps/plugins/gramplet/ancestor.py:195
@@ -23113,7 +23107,7 @@ msgid ""
 "Double-click on a row to view a quick report showing all people with the "
 "selected attribute."
 msgstr ""
-"נא להקיש כפולה על השורה להצגת דוח מהיר עם כל האנשים החולקים את התכונה שנבחרה."
+"הקשה כפולה על שורה להצגת מצג מהיר עם כל האנשים שחולקים את התכונה שנבחרה."
 
 #: ../gramps/plugins/gramplet/attributes.py:61
 #: ../gramps/plugins/webreport/basepage.py:1399
@@ -23127,16 +23121,16 @@ msgstr "_הפיכת %s לפעילה"
 
 #: ../gramps/plugins/gramplet/calendargramplet.py:51
 msgid "Double-click a day for details"
-msgstr "נא להקיש כפולה על יום לפרטים"
+msgstr "הקשה כפולה על יום לפרטים"
 
 #: ../gramps/plugins/gramplet/children.py:99
 #: ../gramps/plugins/gramplet/children.py:210
 msgid "Double-click on a row to edit the selected child."
-msgstr "נא להקיש כפולה על השורה לעריכת הצאצא שנבחר."
+msgstr "הקשה כפולה על שורה לעריכת הצאצא שנבחר."
 
 #: ../gramps/plugins/gramplet/citations.py:94
 msgid "Double-click on a row to edit the selected source/citation."
-msgstr "נא להקיש כפולה על השורה לעריכת מקור/מובאה שנבחרה."
+msgstr "הקשה כפולה על שורה לעריכת מקור/מובאה שנבחרה."
 
 #: ../gramps/plugins/gramplet/citations.py:103
 msgid "Source/Date"
@@ -23152,7 +23146,7 @@ msgstr "<אין כרך/עמוד>"
 
 #: ../gramps/plugins/gramplet/coordinates.py:88
 msgid "Right-click on a row to edit the selected event or the related place."
-msgstr "נא להקיש כפולה על השורה לעריכת אירועים או המקום המיוחס."
+msgstr "הקשה כפולה על שורה לעריכת אירועים או המקום המשויך."
 
 #: ../gramps/plugins/gramplet/coordinates.py:104
 #: ../gramps/plugins/textreport/tagreport.py:167
@@ -23194,7 +23188,7 @@ msgstr "החלה"
 #: ../gramps/plugins/gramplet/events.py:93
 #: ../gramps/plugins/gramplet/personresidence.py:59
 msgid "Double-click on a row to edit the selected event."
-msgstr "נא להקיש כפולה על השורה לעריכת האירוע שנבחר."
+msgstr "הקשה כפולה על שורה לעריכת האירוע שנבחר."
 
 #: ../gramps/plugins/gramplet/fanchart2waygramplet.py:82
 #: ../gramps/plugins/gramplet/fanchartdescgramplet.py:70
@@ -23205,8 +23199,8 @@ msgid ""
 "Click and drag in open area to rotate"
 msgstr ""
 "הקשה להרחבת/כווץ אדם\n"
-"הקשה ימנית לקבלת אפשרויות\n"
-"הקשה וגרירה באזור ריק על מנת לסובב"
+"הקשת עכבר ימנית לקבלת אפשרויות\n"
+"הקשה וגרירה  על אזור ריק על מנת לסובב"
 
 #: ../gramps/plugins/gramplet/faqgramplet.py:64
 #, python-format
@@ -23372,7 +23366,7 @@ msgstr ""
 
 #: ../gramps/plugins/gramplet/givennamegramplet.py:56
 msgid "Double-click given name for details"
-msgstr "נא להקיש כפולה על שם פרטי לפרטים"
+msgstr "הקשה כפולה על שם פרטי לפרטים"
 
 #: ../gramps/plugins/gramplet/givennamegramplet.py:58
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:51
@@ -24212,7 +24206,7 @@ msgstr "שגיאת אזכורים"
 
 #: ../gramps/plugins/gramplet/locations.py:84
 msgid "Double-click on a row to edit the selected place."
-msgstr "נא להקיש כפולה על השורה לעריכת המקום שנבחר."
+msgstr "הקשה כפולה על שורה לעריכת המקום שנבחר."
 
 #: ../gramps/plugins/gramplet/notes.py:108
 #: ../gramps/plugins/gramplet/todo.py:140
@@ -24247,11 +24241,11 @@ msgstr "סוג קו"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:167
 msgid "Click to make active\n"
-msgstr "נא להקיש להפיכה לפעיל\n"
+msgstr "הקשה לשפעול\n"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:167
 msgid "Right-click to edit"
-msgstr "נא להקיש ימנית לעריכה"
+msgstr "הקשת עכבר ימנית לעריכה"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:227
 #, python-format
@@ -24287,7 +24281,7 @@ msgstr "דור 1"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:271
 msgid "Double-click to see people in generation"
-msgstr "נא להקיש כפולה להצגת אנשים בדור"
+msgstr "הקשה כפולה להצגת אנשים בדור"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:275
 #, python-format
@@ -24306,7 +24300,7 @@ msgstr "דור %d"
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:284
 #, python-format
 msgid "Double-click to see people in generation %d"
-msgstr "נא להקיש כפולה אנשים בדור %d"
+msgstr "הקשה כפולה להצגת אנשים בדור %d"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:293
 #, python-brace-format
@@ -24323,7 +24317,7 @@ msgstr "כל הדורות"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:308
 msgid "Double-click to see all generations"
-msgstr "לחיצה כפולה להצגת כל הדורות"
+msgstr "הקשה כפולה להצגת כל הדורות"
 
 #: ../gramps/plugins/gramplet/pedigreegramplet.py:313
 #, python-brace-format
@@ -24359,15 +24353,15 @@ msgstr "מבט מהיר"
 #: ../gramps/plugins/gramplet/recordsgramplet.py:43
 #: ../gramps/plugins/gramplet/whatsnext.py:44
 msgid "Double-click name for details"
-msgstr "נא להקיש כפולה על שם לפרטים"
+msgstr "הקשה כפולה על שם לפרטים"
 
 #: ../gramps/plugins/gramplet/relativegramplet.py:45
 msgid "Click name to make person active\n"
-msgstr "נא להקיש על השם להפיכה לאדם הפעיל\n"
+msgstr "הקשה על שם  לשפעול אדם\n"
 
 #: ../gramps/plugins/gramplet/relativegramplet.py:46
 msgid "Right-click name to edit person"
-msgstr "נא להקיש ימנית על השם לעריכת אנשים"
+msgstr "הקשת עכבר ימנית על שם לעריכת אדם"
 
 #: ../gramps/plugins/gramplet/relativegramplet.py:77
 #, python-format
@@ -24405,7 +24399,7 @@ msgid ""
 "Click name to change active\n"
 "Double-click name to edit"
 msgstr ""
-"הקשה על השם להפוך לפעיל\n"
+"הקשה על השם לשפעול\n"
 "הקשה כפולה לעריכה"
 
 #: ../gramps/plugins/gramplet/sessionloggramplet.py:51
@@ -24438,7 +24432,7 @@ msgstr "קוד סאונדאקס:"
 
 #: ../gramps/plugins/gramplet/statsgramplet.py:61
 msgid "Double-click item to see matches"
-msgstr "להצגת התאמות יש להקיש הקשה כפולה על פריט"
+msgstr "הקשה כפולה על פריט להצגת התאמות"
 
 #: ../gramps/plugins/gramplet/statsgramplet.py:97
 #: ../gramps/plugins/textreport/summary.py:335
@@ -24535,7 +24529,7 @@ msgstr "עצמי מדיה חסרים"
 #: ../gramps/plugins/gramplet/surnamecloudgramplet.py:69
 #: ../gramps/plugins/gramplet/topsurnamesgramplet.py:55
 msgid "Double-click surname for details"
-msgstr "נא להקיש כפולה על שם משפחה לפרטים"
+msgstr "הקשה כפולה על שם משפחה לפרטים"
 
 #: ../gramps/plugins/gramplet/surnamecloudgramplet.py:89
 #: ../gramps/plugins/gramplet/surnamecloudgramplet.py:193
@@ -25252,7 +25246,7 @@ msgstr "הצבע למצג משפחות."
 #: ../gramps/plugins/textreport/familygroup.py:690
 #: ../gramps/plugins/textreport/indivcomplete.py:857
 msgid "You did not specify anybody"
-msgstr "לא הוגדר אף אחד"
+msgstr "לא צויין אף אחד"
 
 #: ../gramps/plugins/graph/gvfamilylines.py:531
 msgid "Number of people in database:"
@@ -26188,7 +26182,7 @@ msgstr ""
 
 #: ../gramps/plugins/importer/importprogen.glade:44
 msgid "_Ok"
-msgstr "_אוקיי"
+msgstr "_בסדר"
 
 #: ../gramps/plugins/importer/importprogen.glade:113
 #: ../gramps/plugins/importer/importprogen.glade:132
@@ -30750,8 +30744,8 @@ msgid ""
 "be selected by holding down the control key while clicking on the desired "
 "person."
 msgstr ""
-"לבצע מיזוג ,נא לבחור שני אנשים בדיוק. ניתן לבחור באדם השני על־ידי החזקת מקש "
-"הבקרה ובו בעת הקשה על האדם הרצוי."
+"למיזוג , יש לבחור שני אנשים בדיוק. ניתן לבחור את האדם השני על־ידי החזקת מקש "
+"ה'קונטרול' והקשה על האדם הרצוי."
 
 #: ../gramps/plugins/lib/libplaceview.py:118
 msgid "Edit the selected place"
@@ -30825,8 +30819,8 @@ msgid ""
 "be selected by holding down the control key while clicking on the desired "
 "place."
 msgstr ""
-"לבצע מיזוג ,נא לבחור שני מקומות בדיוק. ניתן לבחור במקום השני על־ידי החזקת "
-"מקש הבקרה ובו בעת הקשה על המקום הרצוי."
+"למיזוג, יש לבחור שני מקומות בדיוק. ניתן לבחור את המקום השני על־ידי החזקת מקש "
+"ה'קונטרול' והקשה על המקום הרצוי."
 
 #: ../gramps/plugins/lib/libplaceview.py:582
 msgid "Merging these places would create a cycle in the place hierarchy."
@@ -31731,7 +31725,7 @@ msgstr "תמצית מונים לבחירה הנוכחיתלחיצה"
 
 #: ../gramps/plugins/quickview/filterbyname.py:91
 msgid "Right-click row (or press ENTER) to see selected items."
-msgstr "הקשה ימנית על שורה (או הקשה על 'אנטר') לצפייה בפריטים שנבחרו."
+msgstr "הקשת עכבר ימנית על שורה (או לחיצה על 'אנטר') לצפייה בפריטים שנבחרו."
 
 #: ../gramps/plugins/quickview/filterbyname.py:93
 msgid "Count/Total"
@@ -31879,7 +31873,7 @@ msgstr "בדיקת קישור"
 #: ../gramps/plugins/quickview/linkreferences.py:55
 #: ../gramps/plugins/textreport/notelinkreport.py:124
 msgid "Ok"
-msgstr "אוקיי"
+msgstr "בסדר"
 
 #: ../gramps/plugins/quickview/linkreferences.py:58
 msgid "Failed: missing object"
@@ -32105,8 +32099,8 @@ msgstr "אנשים שחולקים את שם המשפחה '%s'"
 msgid "There is {number_of} person with a matching name, or alternate name.\n"
 msgid_plural ""
 "There are {number_of} people with a matching name, or alternate name.\n"
-msgstr[0] "קיים אדם {number_of} עם שם תואם, או שם חליפי.\n"
-msgstr[1] "קיימים {number_of} אנשים עם שם תואם, או שם חליפי.\n"
+msgstr[0] "קיים אדם {number_of} עם שם תואם, או שם חלופי.\n"
+msgstr[1] "קיימים {number_of} אנשים עם שם תואם, או שם חלופי.\n"
 
 #: ../gramps/plugins/quickview/samesurnames.py:177
 #, python-format
@@ -32249,7 +32243,7 @@ msgstr "מחשבון קשרי־קרבה אוקראיני"
 
 #: ../gramps/plugins/sidebar/dropdownsidebar.py:160
 msgid "Click to select a view"
-msgstr "נא להקיש לבחירת מצג"
+msgstr "הקשה לבחירת מצג"
 
 #: ../gramps/plugins/sidebar/sidebar.gpr.py:35
 msgid "Category Sidebar"
@@ -33204,7 +33198,7 @@ msgstr "%(parent-name)s, קשרי־קרבה: %(rel-type)s"
 
 #: ../gramps/plugins/textreport/indivcomplete.py:328
 msgid "Alternate Parents"
-msgstr "הורים חליפיים"
+msgstr "הורים חלויפיים"
 
 #: ../gramps/plugins/textreport/indivcomplete.py:469
 #: ../gramps/plugins/webreport/person.py:1621
@@ -35225,7 +35219,7 @@ msgstr "הי_פוך בחירה"
 #: ../gramps/plugins/tool/removeunused.glade:326
 #: ../gramps/plugins/tool/verify.glade:953
 msgid "Double-click on a row to view/edit data"
-msgstr "הקשה כפולה על שורה להצגת/עריכת נתונים"
+msgstr "הקשת עכבר כפולה על שורה להצגת/עריכת נתונים"
 
 #: ../gramps/plugins/tool/removeunused.py:72
 msgid "Unused Objects"
@@ -35985,8 +35979,8 @@ msgid ""
 "can be selected by holding down the control key while clicking on the "
 "desired citation."
 msgstr ""
-"למיזוג יש לבחור שתי מבואות בדיוק. ניתן לבחור את המובאה השניה על־ידי החזקת "
-"מקש 'קונטרול' והקלקה על המובאה הרצויה."
+"למיזוג, יש לבחור שתי מבואות בדיוק. ניתן לבחור את המובאה השניה על־ידי החזקת "
+"מקש ה'קונטרול' והקשה על המובאה הרצויה."
 
 #: ../gramps/plugins/view/citationlistview.py:447
 #: ../gramps/plugins/view/citationtreeview.py:703
@@ -36097,8 +36091,8 @@ msgid ""
 "be selected by holding down the control key while clicking on the desired "
 "event."
 msgstr ""
-"לביצוע מיזוג, יש לבחור שני אירועים בדיוק. ניתן לבחור באירוע השני על־ידי "
-"החזקת מקש הבקרה ובה בעת הקשה על האירוע השני הרצוי."
+"למיזוג, יש לבחור שני אירועים בדיוק. ניתן לבחור את האירוע השני על־ידי החזקת "
+"מקש ה'קונטרול' והקשה על האירוע הרצוי."
 
 #: ../gramps/plugins/view/familyview.py:86
 msgid "Marriage Date"
@@ -36142,8 +36136,8 @@ msgid ""
 "can be selected by holding down the control key while clicking on the "
 "desired family."
 msgstr ""
-"לביצוע מיזוג, יש לבחור שתי משפחות בדיוק. ניתן לבחור במשפחה השנייה על־ידי "
-"החזקת מקש הבקרה ובה בעת הקשה על המשפחה השניה הרצויה."
+"למיזוג, יש לבחור שתי משפחות בדיוק. ניתן לבחור את המשפחה השניה על־ידי החזקת "
+"מקש ה'קונטרול' והקשה על המשפחה הרצויה."
 
 #: ../gramps/plugins/view/fanchart2wayview.py:288
 msgid "Max ancestor generations"
@@ -36815,8 +36809,8 @@ msgid ""
 "object can be selected by holding down the control key while clicking on the "
 "desired object."
 msgstr ""
-"לבצע מיזוג ,נא לבחור שני עצמי מדיה בדיוק. ניתן לבחור בעצם השני על־ידי החזקת "
-"מקש הבקרה ובו בעת הקשה על העצם הרצוי."
+"למיזוג , יש לבחור שני עצמי מדיה בדיוק. ניתן לבחור את עצם המדיה השני על־ידי "
+"החזקת מקש ה'קונטרול' והקשה על עצם המדיה הרצוי."
 
 #: ../gramps/plugins/view/noteview.py:98
 msgid "Delete the selected note"
@@ -36839,8 +36833,8 @@ msgid ""
 "Exactly two notes must be selected to perform a merge. A second note can be "
 "selected by holding down the control key while clicking on the desired note."
 msgstr ""
-"לביצוע מיזוג, נא לבחור בדיוק בשתי הערות. ניתן לבחור בהערה השנייה על־ידי "
-"החזקת מקש Ctrl תוך הקשה על ההערה הרצויה."
+"למיזוג, יש לבחור שתי הערות בדיוק. ניתן לבחור את ההערה השניה על־ידי החזקת מקש "
+"ה'קונטרול' והקשה על ההערה הרצויה."
 
 # ל.=לידה
 #: ../gramps/plugins/view/pedigreeview.py:87
@@ -37188,8 +37182,8 @@ msgid ""
 "repository can be selected by holding down the control key while clicking on "
 "the desired repository."
 msgstr ""
-"לבצע מיזוג ,נא לבחור שני מאגרים בדיוק. ניתן לבחור במאגר השני על־ידי החזקת "
-"מקש הבקרה ובו בעת הקשה על המאגר הרצוי."
+"למיזוג, יש לבחור שני מאגרים בדיוק. ניתן לבחור את המאגר השני על־ידי החזקת מקש "
+"ה'קונטרול' והקשה על המאגר הרצוי."
 
 #: ../gramps/plugins/view/sourceview.py:112
 msgid "Edit the selected source"
@@ -37217,8 +37211,8 @@ msgid ""
 "be selected by holding down the control key while clicking on the desired "
 "source."
 msgstr ""
-"לבצע מיזוג ,נא לבחור שני מקורות בדיוק. ניתן לבחור במקור השני על־ידי החזקת "
-"מקש הבקרה ובו בעת הקשה על המקור הרצוי."
+"למיזוג, יש לבחור שני מקורות בדיוק. ניתן לבחור את המקור השני על־ידי החזקת מקש "
+"ה'קונטרול' והקשה על המקור הרצוי."
 
 #: ../gramps/plugins/view/view.gpr.py:40
 msgid "The view showing all the events"
@@ -37448,7 +37442,7 @@ msgstr "מדיה אחרת: קטעי חוזי, קבצי pdf..."
 
 #: ../gramps/plugins/webreport/basepage.py:2949
 msgid " [Click to Go]"
-msgstr " [הקשה למעבר]"
+msgstr " [הקשה לדפדוף]"
 
 #: ../gramps/plugins/webreport/basepage.py:2975
 msgid "Latter-Day Saints/ LDS Ordinance"
